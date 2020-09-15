@@ -15,86 +15,114 @@
         <div class="row justify-content-center">
             <h1>First Bootstrap Project</h1>
         </div>
-        <div class="row">
-            <div class="justify-content-start col-4">Lions</div>
-            <div class="justify-content-center col-4">Tigers</div>
-            <div class="justify-content-end col-4">Bears</div>
+        <div class="row justify-content-around">
+            <div class="col-4">Lions</div>
+            <div class="col-4">Tigers</div>
+            <div class="col-4">Bears</div>
         </div>
         <!-- email/password -->
-        <div class="row col-12 p3 border border-primary">
-            <div class="form-group">
-                <label for="exampleInputEmail">Email Address</label>
-                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
-                    placeholder="Enter Email">
+        <div class="row">
+            <form class="col-12 p-3 border border-primary">
                 <div class="form-group">
-                    <label for="exampleInputPassword">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="emailInput">Email Address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                        placeholder="Enter Email">
+                    <div class="form-group">
+                        <label for="pwInput">Password</label>
+                        <input type="password" class="form-control" id="pwInput" placeholder="Password">
+                    </div>
+                    <!-- dogs/cats -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Cats">
+                        <label class="form-check-label" for="Cats">
+                            Check for Cats
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Dogs">
+                        <label class="form-check-label" for="Dogs">
+                            Check for Dogs
+                        </label>
+                    </div>
+
+                    <!-- pizzas -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cheesePizza" id="cheesePizzaOption"
+                            value="option2">
+                        <label class="form-check-label" for="cheesePizza">
+                            Cheese Pizza
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="hawaiianPizza" id="hawaiianPizzaOption"
+                            value="option2">
+                        <label class="form-check-label" for="hawaiianPizza">
+                            Hawaiian Pizza
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="supremePizza" id="supremePizzaOption"
+                            value="option2">
+                        <label class="form-check-label" for="supremePizza">
+                            Supreme Pizza
+                        </label>
+                    </div>
+
+                    <div class="btn outline bg-info">Submit</div>
                 </div>
-                <!-- dogs/cats -->
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="Cats">
-            <label class="form-check-label" for="Cats">
-                Check for Cats
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="Dogs">
-            <label class="form-check-label" for="Dogs">
-                Check for Dogs
-            </label>
-        </div>
-
-        <!-- pizzas -->
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="cheesePizza" id="cheesePizzaOption" value="option2">
-            <label class="form-check-label" for="cheesePizza">
-                Cheese Pizza
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="hawaiianPizza" id="hawaiianPizzaOption" value="option2">
-            <label class="form-check-label" for="hawaiianPizza">
-                Hawaiian Pizza
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="supremePizza" id="supremePizzaOption" value="option2">
-            <label class="form-check-label" for="supremePizza">
-                Supreme Pizza
-            </label>
-        </div>
-
-        <div class="btn outline bg-info">Submit</div>
-            </div>
-            
+            </form>
         </div>
         <!-- Friends -->
         <div class="row col 12">
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 1</h3>
-                <div class="card-body">Some stuff about Friend 1</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 2</h3>
-                <div class="card-body">Some stuff about Friend 2</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 3</h3>
-                <div class="card-body">Some stuff about Friend 3</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 4</h3>
-                <div class="card-body">Some stuff about Friend 4</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 5</h3>
-                <div class="card-body">Some stuff about Friend 5</div>
+                <p>sLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
-            <div class="card">
+            <div class="card col-4">
                 <h3>Friend 6</h3>
-                <div class="card-body">Some stuff about Friend 6</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed leo maximus, convallis augue id,
+                    interdum sapien. Curabitur at leo ipsum. Maecenas sed porttitor dolor, nec molestie orci. Donec
+                    mattis odio vitae vehicula venenatis. Sed consectetur dolor augue, eget finibus mauris molestie at.
+                    Cras dictum purus tellus, at ornare sem iaculis nec. Nullam erat mauris, faucibus quis dignissim
+                    vel, suscipit sed est. Nulla fringilla varius tellus non fermentum.</p>
             </div>
         </div>
 
